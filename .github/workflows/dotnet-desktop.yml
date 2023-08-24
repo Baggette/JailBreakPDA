@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: dotnet restore JailbreakPDA/JailbreakPDA.csproj
       - name: Build
-        run: dotnet build JailbreakPDA/JailbreakPDA.csproj --configuration Release --no-restore
+        run: dotnet build JailbreakPDA/JailbreakPDA.csproj --configuration Release 
